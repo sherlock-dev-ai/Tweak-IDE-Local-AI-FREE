@@ -43,12 +43,43 @@ Modern software development demands both powerful AI pair-programming and uncomp
   <em>The starting welcome screen featuring quick workspace launcher, recent project cards, and environment toggles.</em>
 </p>
 
+#### 🔍 Welcome Screen Key Features:
+- **Global Command Palette (`Ctrl + P`):** Quick-open search bar in the header to search files and trigger editor commands instantly.
+- **Dual IDE / Notebook Mode Switcher:** Dedicated `[</> IDE]` and `[📓 Notebook]` header toggles to switch between Monaco editing and Jupyter notebooks with one click.
+- **Full Standard Application Menu Bar:** Standard desktop menus (`File`, `Edit`, `Selection`, `View`, `Go`, `Run`, `Terminal`, `AI`, `Help`) including dedicated `AI` agent controls.
+- **Primary Workflows:**
+  - `New File` — Creates an empty source file on disk with automatic language detection.
+  - `Open File` — Opens an individual source file from disk.
+  - `Open Folder` — Loads a project directory into the sidebar explorer tree.
+  - `Clone Repository` — Clones any Git repository URL directly into a local workspace.
+  - `New Workspace` — Sets up an isolated project workspace folder.
+- **Explore Tweak Environments Hub:** Six modular runtime tiles:
+  - `Local AI Agent` — Autonomous planning, file diffs, and verification.
+  - `Python Notebooks` — Persistent background kernel with variable inspection and charts.
+  - `Extension Ecosystem` — Universal language servers, themes, and debuggers.
+  - `Integrated Terminal` — Multi-tab PowerShell, Command Prompt, and Git Bash with Up-Arrow recall.
+  - `Browser Preview` — Built-in Chromium web preview with live reload synchronization.
+  - `Git Integration` — Visual source control, staging, diffs, and commits.
+- **Live Status & AI Telemetry:**
+  - `● Ollama Online` real-time connection status pill.
+  - Active model indicator (`qwen2.5:3b`).
+  - Diagnostic error & warning monitor (`0 ⚠️ 0 ❌`).
+  - Inline AI autocomplete toggle (`Cursor Tab`).
+  - Interactive onboarding tour launcher (`Tour`).
+
 ### 📁 Workspace Landing (After Choosing a Folder)
 <p align="center">
   <img src="docs/screenshots/workspace-folder-landing.png" alt="Workspace Landing Page After Choosing a Folder" width="94%" />
   <br>
   <em>The project landing page immediately after opening a folder, displaying project files and rapid-action launch tiles.</em>
 </p>
+
+#### 🔍 Workspace Landing Key Features:
+- **7-Icon Activity Bar:** Rapid navigation between *Explorer*, *Global Search*, *Source Control*, *Run & Debug*, *Extensions*, *Settings*, and the *AI Assistant*.
+- **Dedicated `NOTEBOOKS` Tree Section:** Separated explorer section that auto-indexes all `.ipynb` notebook files with quick-create `+` and refresh actions.
+- **Project Landing Dashboard:** Shows active project name (`demo-project`) and exact local filesystem directory path.
+- **Rapid Action Toolbar:** Direct launch buttons for `+ New File`, `✨ AI Agent`, `>_ Terminal`, and `🌐 Browser Preview`.
+- **Project Files Interactive Table:** Discovered workspace files listed with file-type icons and individual **"Open"** buttons for immediate editor access.
 
 ### 💻 Main IDE Workspace & Code Editor
 <p align="center">
