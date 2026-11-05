@@ -144,20 +144,26 @@ TWEAK IDE includes four developer-tailored themes:
 ### Windows 10 / 11 (64-bit)
 
 1. **Download the Official Installer:**
-   - [**Download Tweak IDE Setup 0.1.0.exe**](https://github.com/sherlock-dev-ai/Tweak-IDE-Local-AI-FREE/releases/download/v0.1.0/Tweak.IDE.Setup.0.1.0.exe)
-2. **Verify Checksum (Recommended):**
-   Open PowerShell and verify the cryptographic integrity of your installer:
+   - [**Download Tweak.IDE.Setup.0.1.0.exe**](https://github.com/sherlock-dev-ai/Tweak-IDE-Local-AI-FREE/releases/download/v0.1.0/Tweak.IDE.Setup.0.1.0.exe)
+
+2. **Run the Setup Wizard:**
+   - Open your **Downloads** folder and double-click `Tweak.IDE.Setup.0.1.0.exe`.
+   - *Or launch via PowerShell from any location:*
+     ```powershell
+     Start-Process "$HOME\Downloads\Tweak.IDE.Setup.0.1.0.exe"
+     ```
+   - Follow the setup wizard to install TWEAK IDE (defaults to `%LOCALAPPDATA%\Programs\Tweak IDE` with no admin rights required).
+   - Desktop and Start Menu shortcuts will be created automatically.
+
+3. **Verify Checksum (Optional):**
+   To verify cryptographic integrity in PowerShell from any directory:
    ```powershell
-   Get-FileHash -Path ".\Tweak.IDE.Setup.0.1.0.exe" -Algorithm SHA256
+   Get-FileHash "$HOME\Downloads\Tweak.IDE.Setup.0.1.0.exe" -Algorithm SHA256
    ```
    *Expected SHA-256 Hash:*
    ```
-   08C162BCB16344711B423049F7C710F11E575032D70B6DE072982F73E9DA2C5F
+   CC632E3E7C20373408A4E56F4530DE2E5C87FCEA275BD0F7C5D1A69AC7B52C8F
    ```
-3. **Run the Installer:**
-   - Double-click `Tweak IDE Setup 0.1.0.exe`.
-   - The NSIS setup wizard will install TWEAK IDE into your user program directory and create desktop and Start Menu shortcuts.
-   - Launch **Tweak IDE** to begin.
 
 ---
 
