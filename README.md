@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sherlock-dev-ai/Tweak-IDE-Local-AI-OFFLINE/releases/download/v0.1.0/Tweak.IDE.Setup.0.1.0.exe">
+  <a href="https://github.com/sherlock-dev-ai/Tweak-IDE-Local-AI-FREE/releases/download/v0.1.0/Tweak.IDE.Setup.0.1.0.exe">
     <img src="https://img.shields.io/badge/Download%20for%20Windows-Installer%20(.exe)-0284c7?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Installer" />
   </a>
 </p>
@@ -144,15 +144,15 @@ TWEAK IDE includes four developer-tailored themes:
 ### Windows 10 / 11 (64-bit)
 
 1. **Download the Official Installer:**
-   - [**Download Tweak IDE Setup 0.1.0.exe**](https://github.com/sherlock-dev-ai/Tweak-IDE-Local-AI-OFFLINE/releases/download/v0.1.0/Tweak.IDE.Setup.0.1.0.exe)
+   - [**Download Tweak IDE Setup 0.1.0.exe**](https://github.com/sherlock-dev-ai/Tweak-IDE-Local-AI-FREE/releases/download/v0.1.0/Tweak.IDE.Setup.0.1.0.exe)
 2. **Verify Checksum (Recommended):**
    Open PowerShell and verify the cryptographic integrity of your installer:
    ```powershell
-   Get-FileHash -Path ".\Tweak IDE Setup 0.1.0.exe" -Algorithm SHA256
+   Get-FileHash -Path ".\Tweak.IDE.Setup.0.1.0.exe" -Algorithm SHA256
    ```
    *Expected SHA-256 Hash:*
    ```
-   67A118AEC926AE32EA9E7436568F765512EE823E37D327B11D7076887DE0A73C
+   A1A0058B3B6D4797E9A0B03D5743A8DFC2516404F4CD3EDD8FE61A77F6716E87
    ```
 3. **Run the Installer:**
    - Double-click `Tweak IDE Setup 0.1.0.exe`.
