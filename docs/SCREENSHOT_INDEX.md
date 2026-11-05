@@ -5,6 +5,8 @@ This index records all genuine production desktop application screenshots captur
 | Filename | Version | Theme | Screen Description | Resolution | Capture Date | File Size |
 | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | [`welcome-screen.png`](./screenshots/welcome-screen.png) | 0.1.0 | Default Dark | First-launch landing page with primary engineering workflows and quick launcher | 1440 × 900 | 2026-11-05 | 109.6 KB |
+| [`welcome-screen-recents.png`](./screenshots/welcome-screen-recents.png) | 0.1.0 | Default Dark | Main Welcome screen showing recent workspace project history cards and rapid launcher | 1440 × 900 | 2026-11-05 | 108.7 KB |
+| [`workspace-folder-landing.png`](./screenshots/workspace-folder-landing.png) | 0.1.0 | Default Dark | Workspace landing view after selecting a folder, showing project file list and quick actions | 1440 × 900 | 2026-11-05 | 88.7 KB |
 | [`workspace.png`](./screenshots/workspace.png) | 0.1.0 | Default Dark | Full IDE workspace with file explorer, Monaco editor, tab bar, and status bar | 1440 × 900 | 2026-11-05 | 177.6 KB |
 | [`theme-obsidian.png`](./screenshots/theme-obsidian.png) | 0.1.0 | Obsidian (OLED) | Pure pitch-black monochrome theme for high-contrast coding | 1440 × 900 | 2026-11-05 | 177.9 KB |
 | [`theme-rose-quartz.png`](./screenshots/theme-rose-quartz.png) | 0.1.0 | Rose Quartz | High-contrast pastel rose developer theme with customized accent tones | 1440 × 900 | 2026-11-05 | 179.1 KB |

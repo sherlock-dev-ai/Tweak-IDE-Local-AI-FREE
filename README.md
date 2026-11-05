@@ -5,14 +5,15 @@
 <h1 align="center">TWEAK IDE</h1>
 
 <p align="center">
-  <strong>The High-Performance, Privacy-First AI Development Environment</strong><br>
-  Built for local-first intelligence, persistent interactive computing, and autonomous verified engineering.
+  <strong>The First Ever Offline AI IDE</strong><br>
+  The High-Performance, Privacy-First Development Environment Built for 100% Offline AI Coding Agents, Jupyter Notebooks, Monaco Editor, and Autonomous Verified Engineering.
 </p>
 
 <p align="center">
   <a href="#-installation"><img src="https://img.shields.io/badge/Release-v0.1.0-0ea5e9?style=flat-square&logo=windows" alt="Version 0.1.0" /></a>
+  <a href="#-the-first-ever-offline-ai-ide"><img src="https://img.shields.io/badge/First%20Ever-Offline%20AI%20IDE-orange?style=flat-square&logo=cpu" alt="First Ever Offline AI IDE" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License MIT" /></a>
-  <a href="docs/SCREENSHOTS.md"><img src="https://img.shields.io/badge/Screenshots-18%20Verified-emerald?style=flat-square" alt="18 Verified Screenshots" /></a>
+  <a href="docs/SCREENSHOTS.md"><img src="https://img.shields.io/badge/Screenshots-20%20Verified-emerald?style=flat-square" alt="20 Verified Screenshots" /></a>
   <a href="https://ollama.com"><img src="https://img.shields.io/badge/AI%20Runtime-Ollama%20Local-purple?style=flat-square" alt="Ollama Local" /></a>
   <a href="https://huggingface.co"><img src="https://img.shields.io/badge/AI%20Cloud-Hugging%20Face-yellow?style=flat-square" alt="Hugging Face" /></a>
 </p>
@@ -29,16 +30,31 @@
 
 Modern software development demands both powerful AI pair-programming and uncompromising source code privacy. Many modern coding tools require streaming your intellectual property to closed third-party servers. 
 
-**TWEAK IDE** bridges this gap. It delivers a fast desktop environment powered by Electron and Monaco, combined with **100% offline, private LLM execution** via local Ollama runtimes and optional Hugging Face cloud inference. With integrated Jupyter-style computational notebooks, automated Python toolchain detection, visual Git source control, and a real-time agent verification lifecycle, TWEAK IDE gives developers the autonomy of modern AI without sacrificing control or security.
+**TWEAK IDE** is the **first ever offline AI IDE** designed from the ground up for total sovereignty. It delivers a fast desktop environment powered by Electron and Monaco, combined with **100% offline, private LLM execution** via local Ollama runtimes and optional Hugging Face cloud inference. With integrated Jupyter-style computational notebooks, automated Python toolchain detection, visual Git source control, and a real-time agent verification lifecycle, TWEAK IDE gives developers the autonomy of modern AI without sending a single line of code outside their machine.
 
 ---
 
 ## 📸 Application Preview
 
+### 🏠 Main Page (Welcome Screen)
 <p align="center">
-  <img src="docs/screenshots/workspace.png" alt="Tweak IDE Workspace" width="94%" />
+  <img src="docs/screenshots/welcome-screen.png" alt="Tweak IDE Welcome Screen" width="94%" />
   <br>
-  <em>The unified TWEAK IDE workspace with file explorer, Monaco editor, and system status telemetry.</em>
+  <em>The starting welcome screen featuring quick workspace launcher, recent project cards, and environment toggles.</em>
+</p>
+
+### 📁 Workspace Landing (After Choosing a Folder)
+<p align="center">
+  <img src="docs/screenshots/workspace-folder-landing.png" alt="Workspace Landing Page After Choosing a Folder" width="94%" />
+  <br>
+  <em>The project landing page immediately after opening a folder, displaying project files and rapid-action launch tiles.</em>
+</p>
+
+### 💻 Main IDE Workspace & Code Editor
+<p align="center">
+  <img src="docs/screenshots/code-editor.png" alt="Tweak IDE Code Editor" width="94%" />
+  <br>
+  <em>The unified TWEAK IDE workspace with file explorer, Monaco editor, tab bar, and system status telemetry.</em>
 </p>
 
 ---

@@ -6,10 +6,20 @@ Welcome to the visual gallery of **TWEAK IDE v0.1.0**. Every image in this docum
 
 ## 🚀 1. First Launch & Onboarding
 
-### Welcome Screen
-The clean starting interface presenting primary developer workflows (Open Folder, Clone Repository, New Workspace) alongside rapid environment toggles and recent project history.
+### Welcome Screen (Main Page)
+The clean starting interface presenting primary developer workflows (Open Folder, Clone Repository, New Workspace) alongside rapid environment toggles.
 
 ![Tweak IDE Welcome Screen](./screenshots/welcome-screen.png)
+
+### Welcome Screen with Recent Projects
+Returning view showing recent project history cards for instant 1-click continuation.
+
+![Tweak IDE Welcome Screen with Recents](./screenshots/welcome-screen-recents.png)
+
+### Workspace Landing Page (After Choosing a Folder)
+The view immediately after selecting a project directory, featuring project files and 1-click action tiles (New File, AI Agent, Terminal, Browser Preview).
+
+![Workspace Landing Page](./screenshots/workspace-folder-landing.png)
 
 ### Guided Onboarding & Spotlight
 An interactive, 10-step guided tour highlighting essential IDE capabilities with animated focus rings, callout tooltips, and directional pointers.
