@@ -152,7 +152,7 @@ TWEAK IDE includes four developer-tailored themes:
    ```
    *Expected SHA-256 Hash:*
    ```
-   A1A0058B3B6D4797E9A0B03D5743A8DFC2516404F4CD3EDD8FE61A77F6716E87
+   08C162BCB16344711B423049F7C710F11E575032D70B6DE072982F73E9DA2C5F
    ```
 3. **Run the Installer:**
    - Double-click `Tweak IDE Setup 0.1.0.exe`.
